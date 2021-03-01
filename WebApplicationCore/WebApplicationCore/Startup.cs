@@ -44,6 +44,8 @@ namespace WebApplicationCore
 
             app.UseRouting();
 
+            app.UseMiddleware<ExemploMiddleWare>();
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

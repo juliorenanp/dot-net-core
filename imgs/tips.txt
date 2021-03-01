@@ -1,2 +1,4 @@
 A pasta wwwroot é utilizada para guardar todos os objetos estáticos (não compiláveis), como icones, js e etc.
+OWIN - Open Web interface for .Net - Especificação de como separar o servidor da aplicação.
+Pipeline pode ser utilizado como uma pilha de MiddleWares.
 
