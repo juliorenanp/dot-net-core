@@ -18,9 +18,9 @@ namespace WebApplicationCore.Controllers
         {
             _logger = logger;
         }
-
-        [Route("teste-index")]
-        public IActionResult Index()
+        [Route("teste2-index")]
+        [Route("teste-index/{id:int}")]
+        public IActionResult Index(int id)
         {
             return View();
         }
