@@ -9,6 +9,7 @@ using WebApplicationCore.Models;
 
 namespace WebApplicationCore.Controllers
 {
+    [Route("rotaMae")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -18,6 +19,7 @@ namespace WebApplicationCore.Controllers
             _logger = logger;
         }
 
+        [Route("teste-index")]
         public IActionResult Index()
         {
             return View();
